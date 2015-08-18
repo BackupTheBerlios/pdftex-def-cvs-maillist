@@ -1,0 +1,34 @@
+From oberdiek at mail.berlios.de  Sat Nov 27 23:04:05 2010
+From: oberdiek at mail.berlios.de (oberdiek at BerliOS)
+Date: Sat, 27 Nov 2010 23:04:05 +0100 (CET)
+Subject: [pdfTeX-def-cvs] CVSROOT syncmail.py,1.3,1.4
+Message-ID: <20101127220405.53C72480BE1@sheep.berlios.de>
+
+Update of /cvsroot/pdftex-def/CVSROOT
+
+Modified Files:
+	syncmail.py 
+Log Message:
+* /bin/mail to /usr/bin/mail.
+
+
+Index: syncmail.py
+===================================================================
+RCS file: /cvsroot/pdftex-def/CVSROOT/syncmail.py,v
+retrieving revision 1.3
+retrieving revision 1.4
+diff -u -d -r1.3 -r1.4
+--- syncmail.py	13 Dec 2002 16:42:33 -0000	1.3
++++ syncmail.py	27 Nov 2010 22:04:02 -0000	1.4
+@@ -59,7 +59,7 @@
+ import getopt
+ 
+ # Notification command
+-MAILCMD = '/bin/mail -s "%(SUBJECT)s" %(PEOPLE)s 2>&1 > /dev/null'
++MAILCMD = '/usr/bin/mail -s "%(SUBJECT)s" %(PEOPLE)s 2>&1 > /dev/null'
+ 
+ # Diff trimming stuff
+ DIFF_HEAD_LINES = 20
+
+
+

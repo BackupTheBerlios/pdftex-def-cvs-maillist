@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [pdfTeX-def-cvs] CVSROOT syncmail.py,1.3,1.4
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/pdftex-def-cvs/2010-November/index.html" >
+   <LINK REL="made" HREF="mailto:pdftex-def-cvs%40lists.berlios.de?Subject=Re%3A%20%5BpdfTeX-def-cvs%5D%20CVSROOT%20syncmail.py%2C1.3%2C1.4&In-Reply-To=%3C20101127220405.53C72480BE1%40sheep.berlios.de%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   
+   
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[pdfTeX-def-cvs] CVSROOT syncmail.py,1.3,1.4</H1>
+    <B>oberdiek at BerliOS</B> 
+    <A HREF="mailto:pdftex-def-cvs%40lists.berlios.de?Subject=Re%3A%20%5BpdfTeX-def-cvs%5D%20CVSROOT%20syncmail.py%2C1.3%2C1.4&In-Reply-To=%3C20101127220405.53C72480BE1%40sheep.berlios.de%3E"
+       TITLE="[pdfTeX-def-cvs] CVSROOT syncmail.py,1.3,1.4">oberdiek at mail.berlios.de
+       </A><BR>
+    <I>Sat Nov 27 23:04:05 CET 2010</I>
+    <P><UL>
+        
+        
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#17">[ date ]</a>
+              <a href="thread.html#17">[ thread ]</a>
+              <a href="subject.html#17">[ subject ]</a>
+              <a href="author.html#17">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Update of /cvsroot/pdftex-def/CVSROOT
+
+Modified Files:
+	syncmail.py 
+Log Message:
+* /bin/mail to /usr/bin/mail.
+
+
+Index: syncmail.py
+===================================================================
+RCS file: /cvsroot/pdftex-def/CVSROOT/syncmail.py,v
+retrieving revision 1.3
+retrieving revision 1.4
+diff -u -d -r1.3 -r1.4
+--- syncmail.py	13 Dec 2002 16:42:33 -0000	1.3
++++ syncmail.py	27 Nov 2010 22:04:02 -0000	1.4
+@@ -59,7 +59,7 @@
+ import getopt
+ 
+ # Notification command
+-MAILCMD = '/bin/mail -s &quot;%(SUBJECT)s&quot; %(PEOPLE)s 2&gt;&amp;1 &gt; /dev/null'
++MAILCMD = '/usr/bin/mail -s &quot;%(SUBJECT)s&quot; %(PEOPLE)s 2&gt;&amp;1 &gt; /dev/null'
+ 
+ # Diff trimming stuff
+ DIFF_HEAD_LINES = 20
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	
+	
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#17">[ date ]</a>
+              <a href="thread.html#17">[ thread ]</a>
+              <a href="subject.html#17">[ subject ]</a>
+              <a href="author.html#17">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/pdftex-def-cvs">More information about the pdfTeX-def-cvs
+mailing list</a><br>
+</body></html>

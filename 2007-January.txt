@@ -1,0 +1,156 @@
+From oberdiek at mail.berlios.de  Mon Jan  1 01:08:38 2007
+From: oberdiek at mail.berlios.de (oberdiek at BerliOS)
+Date: Mon, 01 Jan 2007 01:08:38 +0100
+Subject: [pdfTeX-def-cvs] htdocs index.html,1.12,1.13
+Message-ID: <45985106.mailHQT1I7Q3Y@sheep.berlios.de>
+
+Update of /cvsroot/pdftex-def/htdocs
+
+Modified Files:
+	index.html 
+Log Message:
+* Update to 0.04a.
+
+
+Index: index.html
+===================================================================
+RCS file: /cvsroot/pdftex-def/htdocs/index.html,v
+retrieving revision 1.12
+retrieving revision 1.13
+diff -u -d -r1.12 -r1.13
+--- index.html	14 Aug 2006 15:25:49 -0000	1.12
++++ index.html	1 Jan 2007 00:08:35 -0000	1.13
+@@ -39,10 +39,10 @@
+     <p>The berlios page can be found <a href=
+     "http://developer.berlios.de/project/?group_id=593">here</a>.</p>
+ 
+-    <p>The current stable release is v0.03t: <a href=
+-    "http://download.berlios.de/pdftex-def/pdftex.def-0.03t.tgz">tgz</a>
++    <p>The current stable release is v0.04a: <a href=
++    "http://download.berlios.de/pdftex-def/pdftex.def-0.04a.tgz">tgz</a>
+     and <a href=
+-    "http://download.berlios.de/pdftex-def/pdftex.def-0.03t.zip">zip</a></p>
++    "http://download.berlios.de/pdftex-def/pdftex.def-0.04a.zip">zip</a></p>
+ 
+     <p>You can browse the <a href=
+     "http://cvs.berlios.de/cgi-bin/viewcvs.cgi/pdftex-def/">CVS
+
+
+
+From oberdiek at mail.berlios.de  Tue Jan  2 09:19:37 2007
+From: oberdiek at mail.berlios.de (oberdiek at BerliOS)
+Date: Tue, 02 Jan 2007 09:19:37 +0100
+Subject: [pdfTeX-def-cvs] htdocs index.html,1.13,1.14
+Message-ID: <459A1599.mail27G110K0U@sheep.berlios.de>
+
+Update of /cvsroot/pdftex-def/htdocs
+
+Modified Files:
+	index.html 
+Log Message:
+* Update to 0.04b.
+
+
+Index: index.html
+===================================================================
+RCS file: /cvsroot/pdftex-def/htdocs/index.html,v
+retrieving revision 1.13
+retrieving revision 1.14
+diff -u -d -r1.13 -r1.14
+--- index.html	1 Jan 2007 00:08:35 -0000	1.13
++++ index.html	2 Jan 2007 08:19:35 -0000	1.14
+@@ -39,10 +39,10 @@
+     <p>The berlios page can be found <a href=
+     "http://developer.berlios.de/project/?group_id=593">here</a>.</p>
+ 
+-    <p>The current stable release is v0.04a: <a href=
+-    "http://download.berlios.de/pdftex-def/pdftex.def-0.04a.tgz">tgz</a>
++    <p>The current stable release is v0.04b: <a href=
++    "http://download.berlios.de/pdftex-def/pdftex.def-0.04b.tgz">tgz</a>
+     and <a href=
+-    "http://download.berlios.de/pdftex-def/pdftex.def-0.04a.zip">zip</a></p>
++    "http://download.berlios.de/pdftex-def/pdftex.def-0.04b.zip">zip</a></p>
+ 
+     <p>You can browse the <a href=
+     "http://cvs.berlios.de/cgi-bin/viewcvs.cgi/pdftex-def/">CVS
+
+
+
+From oberdiek at mail.berlios.de  Sat Jan  6 18:36:06 2007
+From: oberdiek at mail.berlios.de (oberdiek at BerliOS)
+Date: Sat, 06 Jan 2007 18:36:06 +0100
+Subject: [pdfTeX-def-cvs] htdocs index.html,1.14,1.15
+Message-ID: <459FDE06.mailJ9011WERY@sheep.berlios.de>
+
+Update of /cvsroot/pdftex-def/htdocs
+
+Modified Files:
+	index.html 
+Log Message:
+* 2007/01/06 v0.04c (JBIG2 support).
+
+
+Index: index.html
+===================================================================
+RCS file: /cvsroot/pdftex-def/htdocs/index.html,v
+retrieving revision 1.14
+retrieving revision 1.15
+diff -u -d -r1.14 -r1.15
+--- index.html	2 Jan 2007 08:19:35 -0000	1.14
++++ index.html	6 Jan 2007 17:36:03 -0000	1.15
+@@ -39,10 +39,10 @@
+     <p>The berlios page can be found <a href=
+     "http://developer.berlios.de/project/?group_id=593">here</a>.</p>
+ 
+-    <p>The current stable release is v0.04b: <a href=
+-    "http://download.berlios.de/pdftex-def/pdftex.def-0.04b.tgz">tgz</a>
++    <p>The current stable release is v0.04c: <a href=
++    "http://download.berlios.de/pdftex-def/pdftex.def-0.04c.tgz">tgz</a>
+     and <a href=
+-    "http://download.berlios.de/pdftex-def/pdftex.def-0.04b.zip">zip</a></p>
++    "http://download.berlios.de/pdftex-def/pdftex.def-0.04c.zip">zip</a></p>
+ 
+     <p>You can browse the <a href=
+     "http://cvs.berlios.de/cgi-bin/viewcvs.cgi/pdftex-def/">CVS
+
+
+
+From oberdiek at mail.berlios.de  Mon Jan  8 02:25:41 2007
+From: oberdiek at mail.berlios.de (oberdiek at BerliOS)
+Date: Mon, 08 Jan 2007 02:25:41 +0100
+Subject: [pdfTeX-def-cvs] htdocs index.html,1.15,1.16
+Message-ID: <45A19D95.mailANW114NQ5@sheep.berlios.de>
+
+Update of /cvsroot/pdftex-def/htdocs
+
+Modified Files:
+	index.html 
+Log Message:
+* Update to 0.04d.
+
+
+Index: index.html
+===================================================================
+RCS file: /cvsroot/pdftex-def/htdocs/index.html,v
+retrieving revision 1.15
+retrieving revision 1.16
+diff -u -d -r1.15 -r1.16
+--- index.html	6 Jan 2007 17:36:03 -0000	1.15
++++ index.html	8 Jan 2007 01:25:37 -0000	1.16
+@@ -39,10 +39,10 @@
+     <p>The berlios page can be found <a href=
+     "http://developer.berlios.de/project/?group_id=593">here</a>.</p>
+ 
+-    <p>The current stable release is v0.04c: <a href=
+-    "http://download.berlios.de/pdftex-def/pdftex.def-0.04c.tgz">tgz</a>
++    <p>The current stable release is v0.04d: <a href=
++    "http://download.berlios.de/pdftex-def/pdftex.def-0.04d.tgz">tgz</a>
+     and <a href=
+-    "http://download.berlios.de/pdftex-def/pdftex.def-0.04c.zip">zip</a></p>
++    "http://download.berlios.de/pdftex-def/pdftex.def-0.04d.zip">zip</a></p>
+ 
+     <p>You can browse the <a href=
+     "http://cvs.berlios.de/cgi-bin/viewcvs.cgi/pdftex-def/">CVS
+
+
+
